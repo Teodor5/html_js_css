@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS. Arrays</title>
+
+    <script async type="text/javascript" src="array.js">
+    </script>
+
+
+    <link rel="stylesheet"
+          type="text/css"
+          href="style5.css"/>
+</head>
+<body class = "container">
+
+<h1>Робота з масивами</h1>
+<h3>Властивості об'єкта</h3>
+<div class="element">
+    <p><b>Length</b> - повертає довжину елемента</p>
+    <p class="script">arrayNames.length()</p>
+</div>
+
+
+<h3>Методи, зміюючі масиви</h3>
+<div class="element" id="element">
+    <p><b>FILL</b> - заповнює масив одним значенням від початкового до кінцевого</p>
+    <p class="script">arrayNames.fill(element,start,end)</p>
+</div>
+
+<div class="element">
+    <p><b>Pop</b> - видаляє останній елемент і повертає його у відповідь</p>
+    <p class="script">arrayNames.pop();</p>
+</div>
+
+<div class="element">
+    <p><b>Push</b> - добавляє 1 або кілька в кінець масиву. Повертає нову довжину масиву</p>
+    <p class="script">arrayNames.push(2,3)</p>
+</div>
+
+<div class="element">
+    <p><b>Revers</b> -  змінює порядок масиву. повертає новий</p>
+    <p class="script">arrayNames.revers()</p>
+</div>
+
+<div class="element">
+    <p><b>Shift</b> - видалення першого. повертає цей елемент</p>
+    <p class="script">arrayNames.shift()</p>
+</div>
+
+<div class="element">
+    <p><b>Sort</b> - сортує елементи масиву. у відповідь повертає відсортований масив. сортує строки</p>
+    <p class="script">arrayNames.sort()</p>
+    <p class="script">arrayNames.sort(function(a,b){return a-b;})</p>
+</div>
+
+<div class="element">
+    <p><b>Splice</b> - змінює вміст масиву, видаляючи існуючі елементи, або створюючи нові. Повертає у відповідь видалені елементи</p>
+    <p class="script">arrayNames.splice(index_from,deleteCount,addItems)</p>
+</div>
+
+<div class="element">
+    <p><b>Unshift</b> - добавляє 1 і більше елементів в початок масиву і повертає нову довжину масиву</p>
+    <p class="script">arrayNames.unshift(0,1)</p>
+</div>
+
+<div class="element">
+    <p><b>Delete</b> - видалення з масиву </p>
+    <p class="script">.delete arrayNames[i]</p>
+</div>
+
+
+<h3>Методи доступу</h3>
+<p>Не змінює масив. повертає в іншому вигляді</p>
+
+<div class="element">
+    <p><b>Concat</b> - повертає новий масив, який складається з даного масиву, з'єднаний з другим масивом і\або значення
+       </p>
+    <p class="script">arrayNames.concat([1,1,1,1,1],[324324,324324])</p>
+</div>
+
+
+<div class="element">
+    <p><b>Includes</b> - перевіряє, чи знаходиться елемент в масиві. повертає bool   </p>
+    <p class="script">arrayNames.includes(4)</p>
+</div>
+
+<div class="element">
+    <p><b>Join</b> - перетворює масив в стрічку </p>
+    <p class="script">arrayNames.Join(', ')</p>
+</div>
+<div class="element">
+    <p><b>Split</b> - стрічку в масив по розділювачу</p>
+    <p class="script">arrayNames.split(',')</p>
+</div>
+
+
+<div class="element">
+    <p><b>Slice</b> - діапазон елементів, і повертає у вигляді нового масиву</p>
+    <p class="script">arrayNames.slice() - копія масиву</p>
+    <p class="script">arrayNames.slice(start,end)</p>
+</div>
+
+<div class="element">
+    <p><b>ToString</b> - </p>
+    <p class="script">arrayNames.slice() - копія масиву</p>
+</div>
+</body>
+</html>

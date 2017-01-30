@@ -1,0 +1,107 @@
+<! DOCTYPE html>
+<html>
+ <head>
+<meta charset="utf-8">
+<meta content="">
+<meta http-equiv="">
+
+<title>Forms</title>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="html.css"
+	/>
+    <body>
+        <h1>Forms</h1>
+        <form 
+              method="get"
+              action="http://google.com"
+              target="_blank">
+        </form>
+            <form>
+                <div>
+                <label for="input-text">Input Text</label>
+                <input 
+                       id="input-text"
+                       type="text" 
+                       name="input-text" 
+                       placeholder="input-text"/>
+                </div>
+                <div>
+                    <label for="input-number">Input Number</label>
+                <input
+                       id="input-number"
+                       type="number"
+                       name="input-text"
+                       min="1"
+                       max="10"
+                       step="2"/>
+                </div>
+                <div>
+                <label for="input-password">Input Password</label>
+                <input 
+                       type="password"
+                       name="input-password"
+                       char="*"/>
+                       
+                </div>
+                <div>
+                    <label for="input-email">Input Email</label>
+                    <input
+                           id="input-email"
+                           type="email"
+                           name="input-email"/>
+                           
+                </div>
+                <div>
+                <label for="input-checkbox"><input
+                           id="input-checkbox"
+                           type="checkbox"
+                           name="input-checkbox-1"
+                           checked
+                           />Input Checkbox</label>
+                    
+                </div>
+                <div>
+                <label for="input-radio-1">
+                    <input 
+                           id="input-radio-1" 
+                           type="radio" 
+                           name="input-radio-1" 
+                           value="1"/>Input radio</label>            
+                </div>
+                <div>
+                    <label for="text-area">Textarea</label>
+                    <textarea
+                              id="textarea"
+                              name="textarea"
+                              rows="3"
+                              col="10"
+                              readonly>Text</textarea>
+                </div>
+                <div>
+                    <label for="select">Select</label>
+                    <select id="select" name="select">
+                        <option value="1">Select 1</option>
+                        <option value="2">Select 2</option>
+                        <optgroup label="Optgroup">
+                        <option value="3">Select 3</option>
+                                                
+                        
+                        </optgroup>
+                    
+                    </select>
+                </div>
+                <div>
+                    <input type="hidden" name="name-hidden" value="test"/>
+                    <input type="button" name="Text" value="Type Button"/>
+                    <input type="submit" name="submit" value="Type Submit"/>
+                    <button>Button</button>
+                </div>
+            </form>
+
+	
+	
+    </body>
+
+    </html>

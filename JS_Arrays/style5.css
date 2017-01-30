@@ -1,0 +1,12 @@
+.container{
+	background-color: bisque;
+}
+.element .script{
+    text-align: center;
+    font-weight: bold;
+	color: black;
+	background-color: aquamarine
+}
+.element {
+	background-color: azure;
+}
